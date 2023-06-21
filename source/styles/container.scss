@@ -1,0 +1,11 @@
+@use 'colors';
+
+.container{
+    height: 500px;
+    width: 360px;
+    background: colors.$color-bgcontainer;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    overflow-y: auto;
+}

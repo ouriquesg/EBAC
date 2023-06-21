@@ -1,0 +1,29 @@
+@use 'colors';
+
+ul li{
+    background: colors.$color-bginput;
+    color: colors.$color-fontinput;
+    height: 40px;
+    border-radius: 30px;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+}
+ul .fa-check, .fa-trash{
+    position: absolute;
+    cursor: pointer;
+}
+ul .fa-check{
+    right: 40px;
+    color: colors.$color-check;
+}
+ul .fa-trash{
+    right: 15px;
+    color: colors.$color-trash;
+}
+ul .checked{
+    background: colors.$color-conclud;
+    text-decoration: line-through colors.$color-decor;
+    transition: 0.4s;
+    color: black;
+}

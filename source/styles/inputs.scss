@@ -1,0 +1,18 @@
+@use 'colors';
+
+#input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: colors.$color-bginput;
+    color: colors.$color-fontinput;
+    padding: 0 10px;
+    margin: 10px 0;
+    
+    #input::placeholder{
+        color: colors.$color-place;
+        text-transform: uppercase;
+    }
+}
